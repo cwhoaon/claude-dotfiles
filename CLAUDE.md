@@ -16,8 +16,10 @@ envs) live in each repo's own CLAUDE.md / CLAUDE.local.md.
   checkpoints, datasets, or logs; force-pushing; changes outside this repo.
 
 ## 2. Math and papers
-- No LaTeX: the terminal doesn't render it. Use Unicode, e.g. `softmax(QKᵀ / √d)`, `‖x‖₂`,
-  `∑ᵢ pᵢ log pᵢ`, `∂L/∂θ`, `x ∈ ℝᴰ`.
+- In CLI replies, no LaTeX: the terminal doesn't render it. Use Unicode, e.g.
+  `softmax(QKᵀ / √d)`, `‖x‖₂`, `∑ᵢ pᵢ log pᵢ`, `∂L/∂θ`, `x ∈ ℝᴰ`.
+- When writing .md files, Notion pages, or other rendered documents, use LaTeX
+  (`$...$` inline, `$$...$$` display).
 - Define notation before using it, and state assumptions explicitly.
 - Derivations must be step-by-step checkable; say where a step is uncertain.
 - When explaining a paper, separate: 1) intuition, 2) math, 3) implementation.
